@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${leagueSpartan.className} mx-auto max-w-7xl bg-white px-6 antialiased`}
+        className={`${leagueSpartan.className} mx-auto max-w-7xl bg-white px-6 antialiased sm:px-8 lg:px-12`}
       >
         {children}
       </body>
